@@ -39,4 +39,5 @@ docker run -d --restart always --name grafana -p 3000:3000 -v "grafana_new:/var/
 
 #AlertManager Installation
 
-docker run --name alertmanager -d -p 9093:9093 -v /etc/prometheus/:/etc/alertmanager quay.io/prometheus/alertmanager
+docker run --name altermanager -d -p 9093:9093 quay.io/prometheus/alertmanager
+
